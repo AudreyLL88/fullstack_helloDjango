@@ -6,7 +6,7 @@
     <title>Todo List</title>
 </head>
 <body>
-    <h1>Add a to do item:</h1>
+    <h1>Add item:</h1>
    <form method="POST" action="add">
        {% csrf_token %}
        {{ form.as_p }}
